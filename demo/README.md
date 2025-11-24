@@ -36,11 +36,8 @@ mvn clean compile
 ```
 
 ### 运行
-```bash
-mvn exec:java -Dexec.mainClass="com.editor.App"
-```
-
-或者：
+先进入bash目录
+ cd D:\subjectResource\softwareDesign\pj\demo
 ```bash
 java -cp target/classes com.editor.App
 ```
@@ -95,4 +92,5 @@ mvn test
 2. 工作区状态保存在 `.editor_workspace` 文件中
 3. 日志文件保存在与源文件同目录的 `.filename.log` 文件中
 4. 如果文件首行是 `# log`，打开文件时自动启用日志记录
+
 
